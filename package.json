@@ -1,13 +1,13 @@
 {
-  "name": "pkg",
+  "name": "@bmackio/pkg",
   "license": "MIT",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts",
-    "release": "pnpm run build && pnpm publish",
+    "release": "yarn run build && yarn publish",
     "lint": "tsc"
   },
   "devDependencies": {
