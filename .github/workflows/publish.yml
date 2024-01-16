@@ -40,6 +40,7 @@ jobs:
           publish: pnpm run release
         env:
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         # env:
         #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         #   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
