@@ -15,8 +15,11 @@
     "tsup": "^6.5.0",
     "typescript": "^4.9.4"
   },
-  "repository": "https://github.com/bmackio/pkg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmackio/pkg.git"
+  },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@bmackio:registry": "https://npm.pkg.github.com"
   }
 }
